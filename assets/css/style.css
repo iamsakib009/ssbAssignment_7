@@ -113,7 +113,7 @@ header {
     url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
   background-position: center;
   overflow: hidden;
   margin: 0 auto;
@@ -142,6 +142,7 @@ header {
 .service-container {
   width: 90%;
   margin: 0 auto;
+  min-height: 65vh;
 }
 .single {
   width: 25%;
@@ -175,11 +176,10 @@ header {
   color: #0078bf;
   font-size: 2rem;
 }
-#single-title {
-  font-size: 2.2rem;
-  margin-top: 4.2rem;
+.single-title {
+  font-size: 2rem;
+  padding-top: 4rem;
   text-align: center;
-  margin-bottom: 1rem;
 }
 span {
   color: #0078bf;
@@ -190,3 +190,105 @@ span {
   line-height: 1.6;
 }
 /* section service end */
+/* section Middle */
+.section-middle {
+  background-color: #040811;
+  padding: 0 7.8rem;
+}
+.middle-container {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 55vh;
+  overflow: hidden;
+}
+
+.middle-content {
+  width: 28%;
+  text-transform: capitalize;
+  margin-top: 8rem;
+  margin-right: 9rem;
+}
+.middle-content-first {
+  float: left;
+}
+.middle-content-first h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.middle-content-first p {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.middle-content-first li {
+  margin-bottom: 0.8rem;
+}
+.middle-content-second {
+  float: left;
+}
+.middle-content-second h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.middle-content-second p {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.middle-content-third {
+  float: right;
+  margin-right: 0;
+}
+/* section middle end */
+/* footer */
+.section-footer {
+  background: #121b2c;
+}
+.container-f {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer-menu {
+  width: 55%;
+  float: left;
+}
+
+.footer-menu ul {
+  float: right;
+  padding: 2rem 0;
+}
+.footer-menu ul li {
+  float: left;
+  border-right: 2px solid #fff;
+}
+.footer-menu ul li a {
+  display: block;
+  margin: 0.8rem 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+.footer-menu ul li a:hover {
+  color: #094974;
+}
+.footer-menu ul li:last-child a {
+  margin-right: 0;
+}
+.footer-img {
+  width: 40%;
+  float: left;
+  padding: 1.8rem 0.8rem;
+}
+.first {
+  width: 20%;
+  float: left;
+  margin-left: 2rem;
+}
+.second {
+  width: 20%;
+  float: right;
+  margin-right: 26rem;
+}
+.text-nav {
+  font-size: 1.2rem;
+  margin-left: 25rem;
+}
