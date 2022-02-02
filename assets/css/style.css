@@ -218,6 +218,8 @@ span {
 .middle-content-first p {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
 }
 .middle-content-first li {
   margin-bottom: 0.8rem;
@@ -231,64 +233,68 @@ span {
 }
 .middle-content-second p {
   margin-bottom: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
 }
 .middle-content-third {
   float: right;
   margin-right: 0;
 }
 /* section middle end */
-/* footer */
-.section-footer {
-  background: #121b2c;
+/* footer start */
+footer {
+  background-color: #121b2a;
+  font-family: sans-serif;
 }
 .container-f {
-  width: 100%;
-  margin: 0 auto;
   overflow: hidden;
+  padding: 4.2rem 4.2rem;
+  /* width: 100%; */
 }
 .footer-menu {
-  width: 55%;
+  width: 50%;
+  color: white;
   float: left;
+  margin-left: 11rem;
 }
-
 .footer-menu ul {
-  float: right;
-  padding: 2rem 0;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .footer-menu ul li {
   float: left;
-  border-right: 2px solid #fff;
+  list-style: none;
+  margin-right: 20px;
+  border-right: 1px solid white;
+  padding-right: 25px;
 }
 .footer-menu ul li a {
-  display: block;
-  margin: 0.8rem 1rem;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
   font-size: 1.5rem;
-  color: #fff;
-  transition: 0.3s;
 }
-.footer-menu ul li a:hover {
-  color: #094974;
+.footer-menu ul li:last-child {
+  border-right: 0;
 }
-.footer-menu ul li:last-child a {
-  margin-right: 0;
+.footer-menu p {
+  letter-spacing: 1px;
 }
-.footer-img {
-  width: 40%;
+
+.footer-logo {
+  overflow: hidden;
+}
+.footer-logo img {
+  margin-right: 0.5rem;
+}
+.symbian {
+  width: 35%;
   float: left;
-  padding: 1.8rem 0.8rem;
+  margin-right: 20px;
 }
-.first {
-  width: 20%;
+.ocean {
+  width: 35%;
   float: left;
-  margin-left: 2rem;
 }
-.second {
-  width: 20%;
-  float: right;
-  margin-right: 26rem;
-}
-.text-nav {
-  font-size: 1.2rem;
-  margin-left: 25rem;
-}
+/* footer end */
